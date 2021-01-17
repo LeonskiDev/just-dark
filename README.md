@@ -2,8 +2,8 @@ A super simple theme that is just [@discord], but dark.
 
 Yep, [@discord] has a solarised-like dark theme already, but this is a pure dark theme. Let's look at a side-by-side of the two.
 
-![JustDark](https://github.com/LeonskiDev/just-dark/blob/master/assets/just-dark.png?raw=true)
 ![Discord Dark](https://github.com/LeonskiDev/just-dark/blob/master/assets/discord-dark.png?raw=true)
+![JustDark](https://github.com/LeonskiDev/just-dark/blob/master/assets/just-dark.png?raw=true)
 
 ## Installing
 You'll need to install [BetterDiscord] to be able to use the theme. You'll also need to make sure that the *"Normalize Classes"* setting is on.
