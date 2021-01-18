@@ -1,6 +1,6 @@
 /**
  * @name JustDark
- * @version 0.2.1
+ * @version 0.2.2
  * @description Just Discord but dark.
  * @author Leon Daivs
  */
@@ -188,5 +188,14 @@
 }
 
 .da-channelTextArea .da-autocompleteInner .da-categoryHeader {
+  background-color: var(--background-secondary-alt);
+}
+
+/* Mention List */
+.da-channelTextArea .da-autocompleteInner {
+  background-color: var(--background-secondary);
+}
+
+.da-channelTextArea .da-autocompleteInner .da-selected {
   background-color: var(--background-secondary-alt);
 }
