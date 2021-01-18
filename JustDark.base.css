@@ -1,3 +1,13 @@
+/**
+ * @name JustDark
+ * @version 0.5.2
+ * @description A super simple theme that is just discord, but dark.
+ * @author Leon Daivs
+ * @authorId 634889272490459157
+ * @updateUrl https://github.com/LeonskiDev/just-dark
+ * @source https://github.com/LeonskiDev/just-dark
+ */
+
 .theme-dark {
   --header-primary: var(--text-normal);
   --header-secondary: #a1a1a1;
@@ -24,9 +34,6 @@
   --background-modifier-selected: var(--background-modifier-active);
   --background-modifier-accent: #313131;
   --background-message-hover: #29292560;
-  /* Not sure what these do */
-  --background-help-warning: #ff00ff;
-  --background-help-info: #ff00ff;
   
   --scrollbar-thin-thumb: var(--background-modifier-accent);
   --scrollbar-thin-track: transparent;
@@ -37,11 +44,13 @@
   
   --channeltextarea-background: var(--background-modifier-active);
   /* Not sure what this does */
-  --activity-card-background: #ff00ff;
+  --activity-card-background: var(--background-secondary-alt);
   --textbox-markdown-syntax: #var(--text-muted);
-  /* Not sure what these do */
+  /* Not sure what this does */
   --deprecated-card-bg: #ff00ff;
-  --deprecated-card-editable-bg: #ff00ff;
+  /* Server Intergrations */
+  --deprecated-card-editable-bg: var(--background-secondary-alt);
+  /* Not sure what this does */
   --deprecated-store-bg: #ff00ff;
   /** Find/Start Convosation */
   --deprecated-quickswitcher-input-background: var(--background-tertiary);
@@ -220,4 +229,13 @@
 
 .da-interactive .da-inset {
   background-color: var(--background-primary) !important;
+}
+
+/* Server Settings */
+.da-contentColumn .da-select:last-child > div > div {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-divider .da-select > div:last-child > div {
+  background-color: var(--background-secondary-alt) !important;
 }
