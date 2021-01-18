@@ -315,3 +315,20 @@
 .da-root > form > .da-content .da-inputWrapper > .da-input {
   background-color: var(--background-secondary) !important;
 }
+
+/* Create Channel Modal */
+.da-modal > .da-inner .da-root > .da-header {
+  margin-top: 0 !important;
+}
+
+.da-modal > .da-inner .da-root > .da-header > .da-button {
+  margin-top: 10px;
+}
+
+.da-modal > .da-inner .da-root > .da-content .da-inputWrapper .da-input {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-modal > .da-inner .da-root > .da-content .da-item:hover {
+  background-color: var(--background-secondary) !important;
+}
