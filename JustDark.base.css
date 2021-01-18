@@ -229,3 +229,8 @@
 .da-divider .da-select > div:last-child > div {
   background-color: var(--background-secondary-alt) !important;
 }
+
+/* Server Welcome Modal */
+.da-main {
+  background-color: var(--background-tertiary) !important;
+}
