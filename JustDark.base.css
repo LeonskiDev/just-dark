@@ -1,14 +1,4 @@
-/**
- * @name JustDark
- * @version 0.4.1
- * @description A super simple theme that is just discord, but dark.
- * @author Leon Daivs
- * @authorId 634889272490459157
- * @updateUrl https://github.com/LeonskiDev/just-dark
- * @source https://github.com/LeonskiDev/just-dark
- */
-
- .theme-dark {
+.theme-dark {
   --header-primary: var(--text-normal);
   --header-secondary: #a1a1a1;
   
