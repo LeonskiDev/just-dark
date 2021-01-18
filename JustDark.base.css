@@ -199,3 +199,16 @@
 .da-reaction:not(.da-reactionMe) {
   background-color: var(--background-accent) !important;
 }
+
+/* Friends Interactive */
+.da-interactive {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-interactive:hover {
+  background-color: var(--background-modifier-active) !important;
+}
+
+.da-interactive .da-inset {
+  background-color: var(--background-primary) !important;
+}
