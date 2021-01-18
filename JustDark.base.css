@@ -305,3 +305,13 @@
 .da-root > .da-contentWrapper > .da-content {
   background-color: var(--background-secondary-alt) !important;
 }
+
+/* Change Nickname */
+.da-root > form > .da-content {
+  padding-top: 16px;
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-root > form > .da-content .da-inputWrapper > .da-input {
+  background-color: var(--background-secondary) !important;
+}
