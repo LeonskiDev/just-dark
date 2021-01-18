@@ -1,6 +1,6 @@
 /**
  * @name JustDark
- * @version 0.2.0
+ * @version 0.2.1
  * @description Just Discord but dark.
  * @author Leon Daivs
  */
@@ -176,4 +176,17 @@
 
 .da-regionSelectPopout .da-quickSelectPopoutOption:hover {
   background-color: var(--interactive-muted) !important;
+}
+
+/* Slash Commands */
+.da-channelTextArea .da-autocompleteInner > .da-list {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-channelTextArea .da-autocompleteInner > .da-list .da-selected {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-channelTextArea .da-autocompleteInner .da-categoryHeader {
+  background-color: var(--background-secondary-alt);
 }
