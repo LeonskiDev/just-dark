@@ -54,10 +54,10 @@
   --deprecated-quickswitcher-input-background: var(--background-tertiary);
   --deprecated-quickswitcher-input-placeholder: var(--text-muted);
   /* User Popup Message Box */
-  --deprecated-text-input-bg: var(--background-secondary);
-  --deprecated-text-input-border: var(--background-secondary);
-  --deprecated-text-input-border-hover: var(--background-secondary);
-  --deprecated-text-input-border-disabled: var(--background-secondary);
+  --deprecated-text-input-bg: var(--background-secondary-alt);
+  --deprecated-text-input-border: var(--background-secondary-alt);
+  --deprecated-text-input-border-hover: var(--background-modifier-alt);
+  --deprecated-text-input-border-disabled: var(--background-secondary-alt);
   /* Not sure what this does */
   --deprecated-text-input-prefix: #ff00ff;
 }
@@ -91,24 +91,26 @@
 }
 
 .da-body > .da-bodyInnerWrapper {
+  width: calc(100% + 8px) !important;
   padding: 0 !important;
 }
 
-.da-body > .da-bodyInnerWrapper > .da-charCounterAdded {
-  width: calc(100% + 8px) !important;
-  margin: 0 !important;
-}
-
 .da-note > .da-textarea {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 
-.da-note > .da-textarea:hover {
-  background-color: var(--background-tertiary) !important;
+.da-note > .da-textarea:hover, .da-note > .da-textarea:focus {
+  background-color: var(--background-modifier-active) !important;
 }
 
-.da-userPopout .da-inputWrapper .da-input {
-  background-color: var(--background-tertiary) !important;
+.da-userPopout .da-inputWrapper .da-input:hover, .da-userPopout .da-inputWrapper .da-input:focus {
+  background-color: var(--background-modifier-active) !important;
+  border: 1px solid var(--background-modifier-active) !important;
+}
+
+.da-body > .da-bodyInnerWrapper > .da-note {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Search Bar */
