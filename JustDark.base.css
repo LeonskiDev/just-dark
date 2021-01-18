@@ -68,6 +68,15 @@
   color: var(--interactive-active) !important;
 }
 
+.da-controlSection .da-contextMenuNub {
+  background-color: var(--interactive-muted) !important;
+  color: var(--interactive-active) !important;
+}
+
+.da-controlSection .da-contextMenuNub:hover, .da-controlSection .da-contextMenuNub:focus {
+  background-color: var(--background-primary) !important;
+}
+
 /* User Popup */
 .da-userPopout > .da-body {
   padding: 16px !important;
