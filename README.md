@@ -14,5 +14,7 @@ Once you've done this you can either clone this repo or download it as a zip. Th
 
 Then you're ready to use the theme by going to the *"Themes"* section and enabling it. Your all done!
 
+Don't worry about having to update the theme, it's automatically done when you relaunch [@discord].
+
 [@discord]: https://github.com/discord
 [BetterDiscord]: https://github.com/rauenzi/BetterDiscordApp
