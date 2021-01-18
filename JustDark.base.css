@@ -222,15 +222,81 @@
 }
 
 /* Server Settings */
-.da-contentColumn .da-select:last-child > div > div {
-  background-color: var(--background-secondary-alt) !important;
-}
-
-.da-divider .da-select > div:last-child > div {
+.da-select > div:last-child > div {
   background-color: var(--background-secondary-alt) !important;
 }
 
 /* Server Welcome Modal */
 .da-main {
   background-color: var(--background-tertiary) !important;
+}
+
+/* Server Boost Statuses */
+.da-tiers .da-tier .da-tierHeader {
+  background-color: #ff00ff !important;
+}
+
+.da-tiers .da-tier .da-tierHeader {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-tiers .da-tier .da-tierBody {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Server Boosts Modal */
+.da-perksModal {
+  background-color: var(--background-primary) !important;
+}
+
+.da-perksModal .da-tier .da-tierHeader {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-perksModal .da-tier .da-tierBody {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-perksModal .da-perks .da-perk {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-perksModal .da-ctaBar .da-button {
+  background-color: var(--background-accent) !important;
+}
+
+.da-perksModal .da-ctaBar .da-button:hover {
+  background-color: var(--interactive-muted) !important;
+}
+
+/* Invite Modal */
+.da-modal:nth-child(1) {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.da-modal .da-footer, .da-modal .da-header {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-modal .da-inviteRow {
+  padding-right: 16px !important;
+}
+
+.da-modal .da-inviteRow:hover {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Privacy Modal */
+.da-root .da-header, .da-root .da-footer {
+  background-color: var(--background-secondary) !important;
+}
+
+.da-root > .da-content {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Server Notification Setttings Modal */
+.da-checked {
+  background-color: rgb(67, 181, 129) !important;
+  border-radius: 50%;
 }
