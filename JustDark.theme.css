@@ -201,3 +201,8 @@
 .da-channelTextArea .da-autocompleteInner .da-selected {
   background-color: var(--background-secondary-alt);
 }
+
+/* Reactions */
+.da-reaction:not(.da-reactionMe) {
+  background-color: var(--background-accent) !important;
+}
